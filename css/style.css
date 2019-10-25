@@ -1,0 +1,158 @@
+/* body */
+body {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/* h1 and p will be cenered */
+h1, p {
+  text-align: center;
+}
+
+/* h1 */
+
+h1 {
+font-family: 'Cinzel', serif;
+}
+
+/* text-size */
+p {
+  font-size: 30px;
+    font-family: 'Didact Gothic', sans-serif;
+}
+
+hr {
+  margin-top: 2%;
+  border: 1px solid black; 
+}
+
+.topHr {
+  margin-bottom: 2%;
+}
+
+/* going to display flex */
+#masterOverlayContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Used to cause a break and
+create the second row */
+.break {
+  flex-basis: 100%;
+
+}
+
+
+
+/* overlayContainers */
+.overlayContainers {
+  position: relative;
+  width: 40%;
+
+}
+
+/* imgs */
+img {
+  width: 100%;
+  display: block;
+}
+
+/* overlays */
+#overlay1 {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+opacity: 0;
+transition: .5s ease;
+background-color: blue;
+}
+#overlay2 {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+opacity: 0;
+transition: .5s ease;
+background-color: red;
+}
+#overlay3 {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+opacity: 0;
+transition: .5s ease;
+background-color: gold;
+}
+#overlay4 {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+opacity: 0;
+transition: .5s ease;
+background-color: silver;
+}
+
+/* Will cause the hovers */
+#overlayContainer1:hover #overlay1{
+opacity: 1;
+}
+#overlayContainer2:hover #overlay2 {
+  opacity: 1;
+}
+#overlayContainer3:hover #overlay3 {
+  opacity: 1;
+}
+#overlayContainer4:hover #overlay4 {
+  opacity: 1;
+}
+
+/* Hyperlink Styling */
+.overlayTexts {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  margin: 0 auto;
+  top: 50%;
+  left: 30%;
+}
+
+/* Hyperlink Hover */
+.overlayTexts:hover {
+  color: Black;
+}
+
+/* Footer will be display flexed */
+footer {
+  margin-top: 2%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* Just to make it on the same
+line as the footer p as well as some
+styling */
+.hyperlink {
+  margin-top: 2.3%;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+    font-family: 'Didact Gothic', sans-serif;
+
+}
+
+/* Footer Hyperlink Hover Effect */
+.hyperlink:hover {
+  color: grey;
+}
+

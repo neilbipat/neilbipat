@@ -1,0 +1,163 @@
+/* body */
+body {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+/* header */
+header {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+/* nav */
+nav {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+/* navLinks */
+.navLinks:hover {
+  color: blue;
+}
+
+.navLinks {
+  font-family: 'Didact Gothic', sans-serif;
+  text-decoration: none;
+  font-size: 30px;
+  color: black;
+}
+
+#navTrick {
+  color: blue;
+}
+
+
+
+hr {
+  border: 1px solid black; 
+}
+
+
+/* aboutDiv */
+.aboutDiv {
+  margin-bottom: 2%;
+}
+
+/* aboutDivP */
+.aboutDivP {
+  font-family: 'Cinzel', serif;
+  text-align: center;
+  font-size: 25px;
+}
+
+/* pParaentDiv */
+#pParaentDiv {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  margin-bottom: 2%;
+}
+
+/* pChildDivsP */
+.pChildDivsP {
+  font-family: 'Didact Gothic', sans-serif;
+  font-size: 20px;
+}
+
+/* masterImgDiv */
+#masterImgDiv {
+  display: flex;
+  margin-bottom: 2%;
+}
+
+/* mChildrenImgsDiv */
+.mChildrenImgsDiv {
+  width: 40%;
+}
+
+/* img */
+img {
+  width: 90%;
+}
+
+img:hover {
+  background-color: black;
+  cursor: pointer;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+.captions {
+   font-family: 'Didact Gothic', sans-serif;
+  margin: auto;
+  max-width: 700px;
+  text-align: center;
+  color: black;
+  margin-bottom: 5%;
+  font-size: 20px;
+}
+
+/* For the modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%; /*takes up full height*/
+  height: 100%; /*Full height*/
+  overflow: auto*;
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+}
+
+/* For the picmodal where the pictures will go to in the modal  */
+.picModal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  /* Used to make it so the pic won't be so stuck to the bottom */
+  height: 550px;
+}
+
+
+
+/* Add Animation - Zoom in the Modal */
+.picModal-content{
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@keyframes zoom {
+  from {transform:scale(0)}
+  to {transform:scale(1)}
+}
+
+/* Just to make it on the same
+line as the footer p as well as some
+styling */
+.hyperlink {
+   font-family: 'Didact Gothic', sans-serif;
+  margin-top: 2.3%;
+  text-decoration: none;
+  color: black;
+  font-size: 30px;
+}
+
+/* Footer will be display flexed */
+footer {
+  /* margin-top: %; */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+/* Footer Hyperlink Hover Effect */
+.hyperlink:hover {
+  color: blue;
+}
+
+

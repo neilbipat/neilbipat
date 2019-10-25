@@ -1,0 +1,5 @@
+1. Goal: Create a new row with display flex. W
+How To Achieve it:
+. Where you want to insert the break, insert an empty div container.
+. Makesure the parent div: has flex-wrap: wrap.
+. give the empy div a style of flex-basis: 100% 

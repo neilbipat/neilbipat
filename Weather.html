@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Weather</title>
+
+    <!-- StyleSheet -->
+    <link href="https://fonts.googleapis.com/css?family=Cinzel|Didact+Gothic&display=swap" rel="stylesheet">
+
+    <!-- StyleSheetLinked -->
+    <link rel="stylesheet"
+    href="css/Weather.css">
+  </head>
+
+<body>
+  <!-- Header -->
+  <header>
+
+    <!-- nav -->
+    <nav>
+      <a class="navLinks" href="file:///Users/neilbipat/Desktop/GitHubLocal/PortfolioNB/index.html">Home</a>
+      <a class="navLinks" href="file:///Users/neilbipat/Desktop/GitHubLocal/PortfolioNB/Academia.html">Academia</a>
+      <a class="navLinks" id="navTrick" href="#">Weather</a>
+      <a class="navLinks" href="file:///Users/neilbipat/Desktop/GitHubLocal/PortfolioNB/Superhero.html">Superhero</a>
+      <a class="navLinks" href="file:///Users/neilbipat/Desktop/GitHubLocal/PortfolioNB/Pixel.html">Pixel</a>
+      
+      
+   
+    </nav>
+  </header>
+
+  <!-- horizontal line break -->
+  <hr></hr>
+
+  <!-- aboutDiv -->
+  <div id="aboutDiv">
+    <p class=aboutDivP>About: This
+      was my first assignment where
+      I had to use a fetch call in
+      JavaScript. Here we used a
+      prexisting api from
+      OpenWeatherMap to
+      tell the weather in the United
+      States based off a zipcode input.
+  </p>
+  </div>
+
+  <!--pParaentDiv  -->
+  <div id="pParaentDiv">
+
+    <!-- Paragraph 1 -->
+    <div class="pChildDivs" id="Paragraph1">
+      <p class="pChildDivsP">Challenges:
+        At the time I was not aware
+        that the hyperlink used for
+        the<br> fetch request could be
+        customized. While I did the CSS
+        styling and had<br> the weather
+        actually change based off a
+         location, the problem was
+        how<br> it was reading the
+        input. Orginally it was
+        not reading zipcodes and<br> 
+        instead read the name of cities in
+        Europe. Once I realized that Apis<br> are 
+        customizable I was able to change it 
+        to the region of the United<br> States and 
+        can now be searched based off of input.
+      <p>
+
+    </div>
+
+    <!-- Paragraph 2 -->
+    <div class="pChildDivs" id="Paragraph2">
+      <p class="pChildDivsP">Accomplishments: 
+        I was able to complete an Asignment where
+        people<br> could actually make
+        use of something that is practical and easy to use.<br> You just have to 
+        type your preferred zipcode and the
+        weather will change<br> accordingly. Also a neat feature is that if the
+        Weather goes over 90<br> degrees or under 40, the temperature will change to red or blue respectively.
+    </p>
+    </div>
+
+<!-- End of pParaentDiv -->
+  </div>
+
+  <!-- masterImgDiv -->
+  <div id="masterImgDiv">
+    <!--mChildren1  -->
+    <div class="mChildrenImgsDiv"
+    id="mChildren1">
+    <img src="img-Weather/visual-pt1.png"
+    alt="Initial Showing" id="img1">
+    <div class="captions" id="caption1">Initial Showing</div>
+    </div>
+
+    <!--mChildren2  -->
+    <div class="mChildrenImgsDiv"
+    id="mChildren2">
+    <img src="img-Weather/visual-pt2.png"
+    alt="Location 1" id="img2">
+      <div class="captions" id="caption2">Location 1</div>
+    </div>
+    <!--mChildren3  -->
+    <div class="mChildrenImgsDiv"
+    id="mChildren3">
+    <img src="img-Weather/Visual-prt3.png"
+    alt="Location 2" id="img3">
+      <div class="captions" id="caption3">Location 2</div>
+    </div>
+
+    <!--mChildren4  -->
+    <div class="mChildrenImgsDiv"
+    id="mChildren4">
+    <img src="img-Weather/js-pt1.png"
+    alt="Line 21: Cuztomizable Fetch API" id="img4">
+      <div class="captions" id="caption4">Cuztomizable Fetch API</div>
+    </div>
+
+    <!-- End of masterImgDiv -->
+      </div>
+
+      <!--The Modal  -->
+    <div id="picModal" class="modal">
+
+    <!-- Where the pictures will go in, when making the js functions -->
+      <img class ="picModal-content"
+      id="showImgs">
+    </div>
+
+    <!-- horizontal line break -->
+    <hr></hr>
+  
+    <!-- Footer -->
+    <footer>
+      <a class="footerText, hyperlink" href="mailto:NeilBipat@gmail.com">Email me!</a>
+      <a class="footerText, hyperlink" href="https://github.com/neilbipat/Weather-App">Weather Repository</a>
+      <a class="footerText, hyperlink" href="https://www.linkedin.com/in/neilbipat/">Linkedin</a>
+    </footer>
+
+    <script src='js/Weather.js'>
+
+    </script>
+
+</body>
+</html>
