@@ -131,7 +131,7 @@ opacity: 1;
   color: Black;
 }
 
-/* Footer will be display flexed */
+/* Footer & Header will be display flexed */
 .mainLinks {
   margin-top: 2%;
   display: flex;
