@@ -132,7 +132,7 @@ opacity: 1;
 }
 
 /* Footer will be display flexed */
-footer {
+.mainLinks {
   margin-top: 2%;
   display: flex;
   flex-direction: row;
