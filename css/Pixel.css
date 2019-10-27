@@ -119,14 +119,7 @@ img:hover {
   display: block;
   width: 80%;
   max-width: 700px;
-  /* Used to make it so the pic won't be so stuck to the bottom */
   height: 550px;
-}
-
-
-
-/* Add Animation - Zoom in the Modal */
-.picModal-content{
   animation-name: zoom;
   animation-duration: 0.6s;
 }
