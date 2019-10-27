@@ -206,7 +206,7 @@ styling */
   text-decoration: none;
   color: black;
   font-size: 30px;
-    font-family: 'Didact Gothic', sans-serif;
+  font-family: 'Didact Gothic', sans-serif;
 
 }
 
@@ -225,6 +225,7 @@ styling */
   #topParagraphDiv {
     display: flex;
     flex-direction: column;
+    text-align: center;
   }
   /* Centering the paragraph */
   p{
@@ -240,7 +241,6 @@ styling */
   #masterOverlayContainer {
     display: flex;
     flex-direction: column;
-    justify-content: center;
     margin-left: 30%;
   }
 
