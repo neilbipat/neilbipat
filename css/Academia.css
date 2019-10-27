@@ -164,7 +164,7 @@ footer {
   color: blue;
 }
 
-/* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+/* If the screen size is 1040px wide or less, set the font-size of <div> to 30px */
 @media screen and (max-width: 1040px) {
   /* Turning them into columns and aligning them to the center */
   #pParaentDiv {
