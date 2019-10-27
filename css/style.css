@@ -4,21 +4,32 @@ body {
   margin-right: 2%;
 }
 
-/* h1 and p will be cenered */
-h1, p {
-  text-align: center;
-}
-
 /* h1 */
 
 h1 {
 font-family: 'Cinzel', serif;
+ text-align: center;
+}
+
+br {
+  display: block;
+}
+
+#topParagraphDiv {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
 }
 
 /* text-size */
 p {
-  font-size: 30px;
-    font-family: 'Didact Gothic', sans-serif;
+  font-size: 38px;
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+/* mChildrenImgsDiv */
+.mChildrenImgsDiv {
+  width: 40%;
 }
 
 hr {
@@ -155,4 +166,3 @@ styling */
 .hyperlink:hover {
   color: grey;
 }
-
