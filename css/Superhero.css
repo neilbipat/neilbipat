@@ -154,3 +154,33 @@ footer {
   color: blue;
 }
 
+/* If the screen size is 1040px wide or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 1324px) {
+  /* Turning them into columns and aligning them to the center */
+  #pParaentDiv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  /* Increasing the font-size */
+  .pChildDivsP {
+    font-size: 30px;
+  }
+
+
+  /* masterImgDiv centering the text and moving the pics over */
+  #masterImgDiv {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-left: 18%;
+  }
+
+  /* Increasing the size of the div containers and thus increasing the width */
+  .mChildrenImgsDiv {
+    width: 80%;
+  }
+
+}
+
