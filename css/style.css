@@ -34,7 +34,6 @@ p {
 }
 
 #img1:hover {
-  background-color: black;
   cursor: pointer;
 }
 
@@ -215,3 +214,23 @@ styling */
 .hyperlink:hover {
   color: grey;
 }
+/* If the screen size is 1040px less*/ 
+@media only screen and (max-width: 1040px) {
+  
+  /* nav */
+  .hyperlink:hover {
+    color: grey;
+  }
+  /* topParagraphDiv */
+  #topParagraphDiv {
+    display: flex;
+    flex-direction: column;
+  }
+  p{
+    text-align: center;
+  }
+  #mChildren1 {
+    margin-left: 32%;
+    width: 40%;
+  }
+
