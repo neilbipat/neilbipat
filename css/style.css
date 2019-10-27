@@ -226,11 +226,84 @@ styling */
     display: flex;
     flex-direction: column;
   }
+  /* Centering the paragraph */
   p{
     text-align: center;
   }
+  /* Centering hte #mChildren image */
   #mChildren1 {
-    margin-left: 32%;
+    margin-left: 30%;
     width: 40%;
   }
+
+  /* masterOverlayContainer */
+  #masterOverlayContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 30%;
+  }
+
+  .overlayContainers {
+    width: 80%;
+  }
+
+  .overlayPics {
+    margin-left: -14%;
+    width: 100%;
+  }
+
+  /* overlays */
+#overlay1 {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+opacity: 0;
+transition: .5s ease;
+background-color: blue;
+margin-left: -14%;
+margin-right: 14%;
+}
+
+#overlay2 {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+opacity: 0;
+transition: .5s ease;
+background-color: red;
+margin-left: -14%;
+margin-right: 14%;
+}
+#overlay3 {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+opacity: 0;
+transition: .5s ease;
+background-color: gold;
+margin-left: -14%;
+margin-right: 14%;
+}
+#overlay4 {
+position: absolute;
+top: 0;
+bottom: 0;
+left: 0;
+right: 0;
+opacity: 0;
+transition: .5s ease;
+background-color: silver;
+margin-left: -14%;
+margin-right: 14%;
+}
+
+
+}
 
