@@ -19,6 +19,7 @@ br {
   display: flex;
   justify-content: center;
   justify-content: space-around;
+  margin-bottom: 2%;
 }
 
 /* text-size */
@@ -29,7 +30,18 @@ p {
 
 /* mChildrenImgsDiv */
 .mChildrenImgsDiv {
-  width: 40%;
+  width: 28%;
+}
+
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+.captions {
+   font-family: 'Didact Gothic', sans-serif;
+  margin: auto;
+  max-width: 700px;
+  text-align: center;
+  color: black;
+  margin-bottom: 5%;
+  font-size: 20px;
 }
 
 hr {
