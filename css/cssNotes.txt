@@ -3,3 +3,8 @@ How To Achieve it:
 . Where you want to insert the break, insert an empty div container.
 . Makesure the parent div: has flex-wrap: wrap.
 . give the empy div a style of flex-basis: 100% 
+
+2. Media Queries
+Screen sizes are measured by Width * Height
+@media only screen and (min-width of something size 1280px)
+Since we put 1280 px, that means for the size and upwards

@@ -40,6 +40,9 @@ hr {
 /* aboutDiv */
 .aboutDiv {
   margin-bottom: 2%;
+  position: relative;
+  width: 100%;
+  height: 300px;
 }
 
 /* aboutDivP */
@@ -60,6 +63,10 @@ hr {
 .pChildDivsP {
    font-family: 'Didact Gothic', sans-serif;
   font-size: 20px;
+}
+
+br {
+  display: block;
 }
 
 /* masterImgDiv */
