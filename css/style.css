@@ -62,9 +62,28 @@ p {
   background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
 }
 
+/* Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 20%;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* Close hover Button */
+.close:hover {
+  color: #d83f3f;
+  text-decoration: none;
+  cursor: pointer;
+}
+
 /* For the picmodal where the pictures will go to in the modal  */
 .picModal-content {
   margin: auto;
+  margin-bottom: 2%;
   display: block;
   width: 80%;
   height: 100%;
@@ -305,5 +324,27 @@ margin-right: 14%;
 }
 
 
+
 }
 
+@media only screen and (max-width: 1246px) {
+
+/* Close Button */
+.close {
+  top: 15px;
+  right: 15%;
+ 
+}
+
+}
+
+@media only screen and (max-width: 1069px) {
+
+/* Close Button */
+.close {
+  top: 15px;
+  right: 10%;
+ 
+}
+
+}
