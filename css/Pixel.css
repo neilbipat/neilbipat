@@ -47,7 +47,7 @@ hr {
 
 /* aboutDivP */
 .aboutDivP {
-  font-family: 'Cinzel', serif;
+    font-family: 'McLaren', cursive;
   text-align: center;
   font-size: 25px;
 }
@@ -62,8 +62,8 @@ hr {
 
 /* pChildDivsP */
 .pChildDivsP {
-  font-family: 'Didact Gothic', sans-serif;
-  font-size: 20px;
+    font-family: 'McLaren', cursive;
+  font-size: 18px;
 }
 
 /* masterImgDiv */
@@ -89,7 +89,7 @@ img:hover {
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 .captions {
-   font-family: 'Didact Gothic', sans-serif;
+     font-family: 'McLaren', cursive;
   margin: auto;
   max-width: 700px;
   text-align: center;
@@ -110,6 +110,24 @@ img:hover {
   overflow: auto*;
   background-color: rgb(0,0,0); /* Fallback color */
   background-color: rgba(0,0,0,0.6); /* Black w/ opacity */
+}
+
+/* Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 20%;
+  color: #f1f1f1;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+/* Close hover Button */
+.close:hover {
+  color: #d83f3f;
+  text-decoration: none;
+  cursor: pointer;
 }
 
 /* For the picmodal where the pictures will go to in the modal  */
@@ -183,3 +201,11 @@ footer {
 
 }
 
+@media only screen and (max-width: 1240px) {
+
+/* Close Button */
+.close {
+  top: 15px;
+  right: 2%;
+ 
+}

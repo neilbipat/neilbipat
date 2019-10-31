@@ -10,6 +10,9 @@ let imgFour = document.querySelector('#img4');
 let mainModal = document.querySelector('#picModal');
 let imgInModal = document.querySelector('#showImgs');
 
+//close button
+let button = document.querySelector('.close');
+
 // Event Listeners to grow picture
 imgOne.addEventListener('click', growPicture);
 imgTwo.addEventListener('click', growPicture);
@@ -24,7 +27,7 @@ function growPicture(){
 
 // Closes the modal by clicking anywhere off the picture
 window.onclick = function(e){
-  if(e.target == picModal) {
+  if (e.target == picModal || e.target == button) {
     picModal.style.display = "none";
   }
 }

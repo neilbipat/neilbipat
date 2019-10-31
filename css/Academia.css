@@ -47,7 +47,7 @@ hr {
 
 /* aboutDivP */
 .aboutDivP {
-  font-family: 'Cinzel', serif;
+  font-family: 'McLaren', cursive;
   text-align: center;
   font-size: 23px;
 }
@@ -61,8 +61,8 @@ hr {
 
 /* pChildDivsP */
 .pChildDivsP {
-   font-family: 'Didact Gothic', sans-serif;
-  font-size: 20px;
+   font-family: 'McLaren', cursive;
+  font-size: 18px;
 }
 
 br {
@@ -92,7 +92,7 @@ img:hover {
 
 /* Caption of Modal Image (Image Text) - Same Width as the Image */
 .captions {
-   font-family: 'Didact Gothic', sans-serif;
+     font-family: 'McLaren', cursive;
   margin: auto;
   max-width: 700px;
   text-align: center;
