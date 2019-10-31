@@ -323,28 +323,11 @@ margin-left: -14%;
 margin-right: 14%;
 }
 
+.modal {
+  display: none;
+}
 
 
 }
 
-@media only screen and (max-width: 1246px) {
 
-/* Close Button */
-.close {
-  top: 15px;
-  right: 15%;
- 
-}
-
-}
-
-@media only screen and (max-width: 1069px) {
-
-/* Close Button */
-.close {
-  top: 15px;
-  right: 10%;
- 
-}
-
-}
