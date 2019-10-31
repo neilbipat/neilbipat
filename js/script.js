@@ -20,9 +20,14 @@ function growPicture() {
     imgInModal.src = this.src;
 }
 
+// media query size 
+let size = window.matchMedia("(max-width: 1040px)");
+
 // Closes the modal by clicking anywhere off the picture
 window.onclick = function (e) {
     if (e.target == picModal || e.target == button) {
         picModal.style.display = "none";
+    }else if(size.matches){
+        mainModal.style.display = 'none';
     }
 }
