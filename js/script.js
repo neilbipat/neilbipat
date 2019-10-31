@@ -21,7 +21,7 @@ function growPicture() {
 }
 
 // media query size 
-let size = window.matchMedia("(max-width: 440px)");
+let size = window.matchMedia("(max-width: 425px)");
 
 // Closes the modal by clicking anywhere off the picture
 window.onclick = function (e) {
