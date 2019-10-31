@@ -12,6 +12,11 @@ let imgSix = document.querySelector('#img6');
 let mainModal = document.querySelector('#picModal');
 let imgInModal = document.querySelector('#showImgs');
 
+//close button
+let button = document.querySelector('.close');
+
+
+
 // Event Listeners to grow picture
 imgOne.addEventListener('click', growPicture);
 imgTwo.addEventListener('click', growPicture);
@@ -27,9 +32,9 @@ function growPicture(){
   imgInModal.src = this.src;
 }
 
-// Closes the modal by clicking anywhere off the picture
-window.onclick = function(e){
-  if(e.target == picModal) {
+// Closes the modal by clicking anywhere off the picture or button
+window.onclick = function (e) {
+  if (e.target == picModal || e.target == button) {
     picModal.style.display = "none";
   }
 }
