@@ -10,19 +10,19 @@ let imgInModal = document.querySelector('#showImgs');
 //close button
 let button = document.querySelector('.close');
 
-// Event Listeners to grow picture
-imgOne.addEventListener('click', growPicture);
+// // Event Listeners to grow picture
+// imgOne.addEventListener('click', growPicture);
 
 
-// Click the pictures and it opens the modal and grows the pic
-function growPicture() {
-    mainModal.style.display = 'block';
-    imgInModal.src = this.src;
-}
+// // Click the pictures and it opens the modal and grows the pic
+// function growPicture() {
+//     mainModal.style.display = 'block';
+//     imgInModal.src = this.src;
+// }
 
-// Closes the modal by clicking anywhere off the picture or button
-window.onclick = function (e) {
-    if (e.target == picModal || e.target == button) {
-        picModal.style.display = "none";
-    }
-}
+// // Closes the modal by clicking anywhere off the picture or button
+// window.onclick = function (e) {
+//     if (e.target == picModal || e.target == button) {
+//         picModal.style.display = "none";
+//     }
+// }
