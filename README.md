@@ -5,8 +5,8 @@
 ---------------------------------------------------------------------------------------------------------------
 
 ### About 
-    This is my first time making a portfolio from scratch. 
-    
+     This is my first time making a portfolio from scratch. 
+
 ### Tools Used
     - HTML(5 files)
     - CSS(5 files and 1 note files)
@@ -28,4 +28,4 @@
 ---------------------------------------------------------------------------------------------------------------
 
 ### RoadBlocks that will be tackled in the future
-    - While it is responsive and works on Google Chrome, it does not work properly on your phone if you are using Safari and did not test other browsers
+    While it is responsive and works on Google Chrome, it does not work properly on your phone if you are using Safari and did not test other browsers
