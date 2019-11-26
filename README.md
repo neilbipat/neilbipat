@@ -28,4 +28,4 @@
 ---------------------------------------------------------------------------------------------------------------
 
 ### RoadBlocks that will be tackled in the future
-    While it is responsive and works on Google Chrome, it does not work properly on your phone if you are using Safari and did not test other browsers
+    - While it is responsive and works on Google Chrome, it does not work properly on your phone if you are using Safari and did not test other browsers
