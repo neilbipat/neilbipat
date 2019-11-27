@@ -8,9 +8,9 @@ This is my first time making a portfolio from scratch.
 
 ### Tools Used
 
-    - HTML(5 files)
-    - CSS(5 files and 1 note files)
-    - JavaScript(3 files)
+- HTML(5 files)
+- CSS(5 files and 1 note files)
+- JavaScript(3 files)
 
 ### NOTE
 
