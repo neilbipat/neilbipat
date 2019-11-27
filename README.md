@@ -4,7 +4,7 @@
 
 ### About 
 
-     This is my first time making a portfolio from scratch. 
+This is my first time making a portfolio from scratch. 
 ---
 
 ### Tools Used
