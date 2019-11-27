@@ -1,10 +1,9 @@
 # neilbipat.github.io: My Portfolio!!!
 
-----
-
 ### About 
 
 This is my first time making a portfolio from scratch. 
+
 ---
 
 ### Tools Used
