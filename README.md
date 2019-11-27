@@ -14,10 +14,10 @@ This is my first time making a portfolio from scratch.
 
 ### NOTE
 
-    - My JavaScript files only have 3 because Pixel.html, Superhero.html, Weather.html only need to use the Weather.js
-    - index.html and script.js are made for each other
-    - Academa.js and Academia.html are made for each other since Academia has more pictures then the rest
-    - In my CSS folder I have the txt file there because I like to make notes or certain observations that I think are important while creating 
+- My JavaScript files only have 3 because Pixel.html, Superhero.html, Weather.html only need to use the Weather.js
+- index.html and script.js are made for each other
+- Academa.js and Academia.html are made for each other since Academia has more pictures then the rest
+- In my CSS folder I have the txt file there because I like to make notes or certain observations that I think are important while creating 
 
 ----
 
