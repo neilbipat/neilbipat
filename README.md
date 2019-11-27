@@ -23,12 +23,12 @@ This is my first time making a portfolio from scratch.
 
 ### Acomplishments 
 
-    - Creating my first website that is deployed
-    - Learning how to make a modal 
-    - The website is responsive
+- Creating my first website that is deployed
+- Learning how to make a modal 
+- The website is responsive
 
 ----
 
 ### RoadBlocks that will be tackled in the future
 
-    - While it is responsive and works on Google Chrome, it does not work properly on your phone if you are using Safari and did not test other browsers
+- While it is responsive and works on Google Chrome, it does not work properly on your phone if you are using Safari and did not test other browsers
